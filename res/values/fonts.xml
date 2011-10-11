@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string name="f0_name">LiberationSerif-Bold</string>
+    <string name="f0_license">SIL</string>
+    <string name="f0_author">Autor</string>
+    <string name="f0_url">http://example.com/</string>
 	<string name="f1_name">OSP-DIN</string>
     <string name="f1_license">SIL</string>
     <string name="f1_author">Copyright (C) 2011 OSP</string>
     <string name="f1_url">http://ospublish.constantvzw.org</string>
-	
+	<string name="f2_name">CursiveSerif</string>
+    <string name="f2_license">SIL</string>
+    <string name="f2_author">wmk69</string>
+    <string name="f2_url">wmk69@o2.pl</string>
+   	<string name="f3_name">Alfphabet</string>
+    <string name="f3_license">SIL</string>
+    <string name="f3_author">OSP</string>
+    <string name="f3_url">http://ospublish.constantvzw.org</string>
+    <string name="f4_name">Segment14</string>
+    <string name="f4_license">SIL</string>
+    <string name="f4_author">Paul Flo Williams</string>
+    <string name="f4_url">http://hisdeedsaredust.com/</string>
+    <string name="f5_name">Dotrice-Bold</string>
+    <string name="f5_license">SIL</string>
+    <string name="f5_author">Paul Flo Williams</string>
+    <string name="f5_url">http://hisdeedsaredust.com/</string>
+    <string name="f6_name">PressStart2P</string>
+    <string name="f6_license">GNU GPL</string>
+    <string name="f6_author">Cody Boisclair "CodeMan38"</string>
+    <string name="f6_url">http://zone38.net/font/</string>
+    <string name="f7_name">GNUTypewriter</string>
+    <string name="f7_license">GNU GPL</string>
+    <string name="f7_author">Łukasz Komsta</string>
+    <string name="f7_url">www.komsta.net</string>
+    <string name="f8_name">Ubuntu-Title</string>
+    <string name="f8_license">GNU GPL</string>
+    <string name="f8_author">Volvoguy</string>
+    <string name="f8_url">http://www.volvoguy.net/ubuntu/</string>
+    <string name="f9_name">BPreplayBold</string>
+    <string name="f9_license">GNU GPL</string>
+    <string name="f9_author">George Triantafyllakos</string>
+    <string name="f9_url">http://www.backpacker.gr/</string>
+    <string name="f10_name">LiberationSerif-Bold</string>
+    <string name="f10_license">GNU GPL</string>
+    <string name="f10_author">Red Hat</string>
+    <string name="f10_url">https://fedorahosted.org/releases/l/i/liberation-fonts/</string>
 	
 </resources>
