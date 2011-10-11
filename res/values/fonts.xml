@@ -6,7 +6,7 @@
     <string name="f0_url">http://example.com/</string>
 	<string name="f1_name">OSP-DIN</string>
     <string name="f1_license">SIL</string>
-    <string name="f1_author">Copyright (C) 2011 OSP</string>
+    <string name="f1_author">OSP</string>
     <string name="f1_url">http://ospublish.constantvzw.org</string>
 	<string name="f2_name">CursiveSerif</string>
     <string name="f2_license">SIL</string>
@@ -44,5 +44,9 @@
     <string name="f10_license">GNU GPL</string>
     <string name="f10_author">Red Hat</string>
     <string name="f10_url">https://fedorahosted.org/releases/l/i/liberation-fonts/</string>
+    <string name="f11_name">YanoneKaffeesatz</string>
+    <string name="f11_license">SIL</string>
+    <string name="f11_author">Jan Gerner</string>
+    <string name="f11_url">http://www.yanone.de/typedesign/kaffeesatz/</string>
 	
 </resources>

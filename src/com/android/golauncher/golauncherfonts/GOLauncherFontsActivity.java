@@ -60,6 +60,7 @@ public class GOLauncherFontsActivity extends Activity {
         madapter.add(new Font(getString(R.string.f8_name), getString(R.string.f8_license), getString(R.string.f8_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f8_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f9_name), getString(R.string.f9_license), getString(R.string.f9_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f9_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f10_name), getString(R.string.f10_license), getString(R.string.f10_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f10_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f11_name), getString(R.string.f11_license), getString(R.string.f11_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f11_name) + ".ttf")));
     }
     
     public class FontAdapter extends ArrayAdapter<Font> {
