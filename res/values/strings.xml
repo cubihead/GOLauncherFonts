@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GOLauncherFontsActivity!</string>
+    <string name="app_name">GO Launcher Fonts</string>
+    <string name="stop">Beenden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="installFonts">Schriftarten installieren</string>
+    <string name="info">Info</string>
+    <string name="bybeecub">wird von beecub, http://beecub.com/, entwickelt und vertrieben</string>
+    <string name="specialthanks">Besonderen Dank an</string>
+    <string name="version">Version</string>
+    <string name="help">Hilfe</string>
+    <string name="pleasewait">Bitte warten</string>
+    <string name="install_1">Nach Installation der App müssen Sie über GOLauncher nach den Schriftarten scannen</string>
+    <string name="preview">Vorschau</string>
+    <string name="source_1">Alle Schriftarten stammen von</string>
+    <string name="name">Name</string>
+    <string name="license">Lizenz</string>
+    <string name="author">Autor</string>
+</resources>

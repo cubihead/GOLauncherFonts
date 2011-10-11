@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="f1_name">OSP-DIN</string>
+    <string name="f1_license">SIL</string>
+    <string name="f1_author">Copyright (C) 2011 OSP</string>
+    <string name="f1_url">http://ospublish.constantvzw.org</string>
+	
+	
+</resources>
