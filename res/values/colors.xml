@@ -1,6 +1,12 @@
 
 <resources>
-	<color name="demo">#8dcbff</color>
-	<color name="preview">#131313</color>
-	<color name="instructions">#222222</color>
+	<color name="background">#000000</color>
+	<color name="instructions">#272727</color>
+	<color name="preview">#1a1a1a</color>
+	<color name="textpreview">#ffffff</color>
+	<color name="textinstructions">#ffffff</color>
+	<color name="textname">#ffffff</color>
+	<color name="textauthor">#c5c5c5</color>
+	<color name="textlicense">#c5c5c5</color>
+	<color name="textdemo">#bfbfbf</color>
 </resources>

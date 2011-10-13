@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="f0_name">LiberationSerif-Bold</string>
+	<string name="f0_name">MaidenOrange</string>
     <string name="f0_license">SIL</string>
     <string name="f0_author">Autor</string>
     <string name="f0_url">http://example.com/</string>
@@ -36,7 +36,7 @@
     <string name="f8_license">GNU GPL</string>
     <string name="f8_author">Volvoguy</string>
     <string name="f8_url">http://www.volvoguy.net/ubuntu/</string>
-    <string name="f9_name">BPreplayBold</string>
+    <string name="f9_name">BPreplay-Bold</string>
     <string name="f9_license">GNU GPL</string>
     <string name="f9_author">George Triantafyllakos</string>
     <string name="f9_url">http://www.backpacker.gr/</string>
@@ -48,4 +48,12 @@
     <string name="f11_license">SIL</string>
     <string name="f11_author">Jan Gerner</string>
     <string name="f11_url">http://www.yanone.de/typedesign/kaffeesatz/</string>
+    <string name="f12_name">GoudyBookletter1911</string>
+    <string name="f12_license">GNU GPL</string>
+    <string name="f12_author">Barry Schwartz</string>
+    <string name="f12_url">http://crudfactory.com/</string>
+    <string name="f13_name">MaidenOrange</string>
+    <string name="f13_license">Apache 2.0</string>
+    <string name="f13_author">Astigmatic One Eye Typographic Institute</string>
+    <string name="f13_url">http://www.astigmatic.com/</string>
 </resources>

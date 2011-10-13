@@ -16,7 +16,7 @@ import android.widget.TextView;
 public class GOLauncherFontsActivity extends Activity {
     public static ArrayList<Font> mFonts = new ArrayList<Font>();
     public static FontAdapter madapter;
-    public static final String LOG_TAG = "beecub";
+    //public static final String LOG_TAG = "beecub";
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -49,7 +49,7 @@ public class GOLauncherFontsActivity extends Activity {
         tv2.setText(getString(R.string.instruction));
         
         // fonts
-        //madapter.add(new Font(getString(R.string.f0_name), getString(R.string.f0_license), getString(R.string.f0_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f0_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f0_name), getString(R.string.f0_license), getString(R.string.f0_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f0_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f1_name), getString(R.string.f1_license), getString(R.string.f1_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f1_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f2_name), getString(R.string.f2_license), getString(R.string.f2_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f2_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f3_name), getString(R.string.f3_license), getString(R.string.f3_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f3_name) + ".ttf")));
@@ -61,6 +61,8 @@ public class GOLauncherFontsActivity extends Activity {
         madapter.add(new Font(getString(R.string.f9_name), getString(R.string.f9_license), getString(R.string.f9_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f9_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f10_name), getString(R.string.f10_license), getString(R.string.f10_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f10_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f11_name), getString(R.string.f11_license), getString(R.string.f11_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f11_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f12_name), getString(R.string.f12_license), getString(R.string.f12_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f12_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f13_name), getString(R.string.f13_license), getString(R.string.f13_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f13_name) + ".ttf")));
     }
     
     public class FontAdapter extends ArrayAdapter<Font> {
