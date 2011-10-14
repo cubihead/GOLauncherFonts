@@ -63,12 +63,17 @@ public class GOLauncherFontsActivity extends Activity {
         madapter.add(new Font(getString(R.string.f11_name), getString(R.string.f11_license), getString(R.string.f11_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f11_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f12_name), getString(R.string.f12_license), getString(R.string.f12_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f12_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f13_name), getString(R.string.f13_license), getString(R.string.f13_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f13_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f14_name), getString(R.string.f14_license), getString(R.string.f14_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f14_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f15_name), getString(R.string.f15_license), getString(R.string.f15_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f15_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f16_name), getString(R.string.f16_license), getString(R.string.f16_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f16_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f17_name), getString(R.string.f17_license), getString(R.string.f17_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f17_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f18_name), getString(R.string.f18_license), getString(R.string.f18_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f18_name) + ".ttf")));
     }
     
     public class FontAdapter extends ArrayAdapter<Font> {
         
         private ArrayList<Font> items;
-
+        
         public FontAdapter(Context context, int textViewResourceId, ArrayList<Font> items) {
                 super(context, textViewResourceId, items);
                 this.items = items;
