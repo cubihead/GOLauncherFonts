@@ -1,103 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="f0_name">MaidenOrange</string>
-    <string name="f0_license">SIL 1.1</string>
-    <string name="f0_author">Autor</string>
-    <string name="f0_url">http://example.com/</string>
-    <string name="f0_category">##############################</string>
-	<string name="f1_name">OSP-DIN</string>
-    <string name="f1_license">SIL 1.1</string>
-    <string name="f1_author">OSP</string>
-    <string name="f1_url">http://ospublish.constantvzw.org</string>
-    <string name="f1_category">##############################</string>
-	<string name="f2_name">CursiveSerif</string>
-    <string name="f2_license">SIL 1.1</string>
-    <string name="f2_author">wmk69</string>
-    <string name="f2_url">wmk69@o2.pl</string>
-    <string name="f2_category">##############################</string>
-   	<string name="f3_name">Alfphabet</string>
-    <string name="f3_license">SIL 1.1</string>
-    <string name="f3_author">OSP</string>
-    <string name="f3_url">http://ospublish.constantvzw.org</string>
-    <string name="f3_category">##############################</string>
-    <string name="f4_name">Segment14</string>
-    <string name="f4_license">SIL 1.1</string>
-    <string name="f4_author">Paul Flo Williams</string>
-    <string name="f4_url">http://hisdeedsaredust.com/</string>
-    <string name="f4_category">##############################</string>
-    <string name="f5_name">Dotrice-Bold</string>
-    <string name="f5_license">SIL 1.1</string>
-    <string name="f5_author">Paul Flo Williams</string>
-    <string name="f5_url">http://hisdeedsaredust.com/</string>
-    <string name="f5_category">##############################</string>
-    <string name="f6_name">PressStart2P</string>
-    <string name="f6_license">GNU GPL</string>
-    <string name="f6_author">Cody Boisclair "CodeMan38"</string>
-    <string name="f6_url">http://zone38.net/font/</string>
-    <string name="f6_category">Bitmap</string>
-    <string name="f7_name">GNUTypewriter</string>
-    <string name="f7_license">GNU GPL</string>
-    <string name="f7_author">Łukasz Komsta</string>
-    <string name="f7_url">www.komsta.net</string>
-    <string name="f7_category">Typewriter</string>
-    <string name="f8_name">Ubuntu-Title</string>
-    <string name="f8_license">GNU GPL</string>
-    <string name="f8_author">Volvoguy</string>
-    <string name="f8_url">http://www.volvoguy.net/ubuntu/</string>
-    <string name="f8_category">Technics</string>
-    <string name="f9_name">MedievalSharp</string>
-    <string name="f9_license">SIL 1.1</string>
-    <string name="f9_author">Wojciech Kalinowski</string>
-    <string name="f9_url">https://profiles.google.com/111812284535706126925/about</string>
-    <string name="f9_category">Medieval</string>
-    <string name="f10_name">LiberationSerif-Bold</string>
-    <string name="f10_license">GNU GPL</string>
-    <string name="f10_author">Red Hat</string>
-    <string name="f10_url">https://fedorahosted.org/releases/l/i/liberation-fonts/</string>
-    <string name="f10_category">Serif</string>
-    <string name="f11_name">YanoneKaffeesatz</string>
-    <string name="f11_license">SIL 1.1</string>
-    <string name="f11_author">Jan Gerner</string>
-    <string name="f11_url">http://www.yanone.de/typedesign/kaffeesatz/</string>
-    <string name="f11_category">Sans serif</string>
-    <string name="f12_name">GoudyBookletter1911</string>
-    <string name="f12_license">GNU GPL</string>
-    <string name="f12_author">Barry Schwartz</string>
-    <string name="f12_url">http://crudfactory.com/</string>
-    <string name="f12_category">Serif</string>
-    <string name="f13_name">MaidenOrange</string>
-    <string name="f13_license">Apache 2.0</string>
-    <string name="f13_author">Astigmatic One Eye Typographic Institute</string>
-    <string name="f13_url">http://www.astigmatic.com/</string>
-    <string name="f13_category">Western</string>
-    <string name="f14_name">Lobster</string>
-    <string name="f14_license">SIL 1.1</string>
-    <string name="f14_author">Pablo Impallari</string>
-    <string name="f14_url">www.impallari.com</string>
-    <string name="f14_category">##############################</string>
-    <string name="f15_name">WalterTurncoat</string>
-    <string name="f15_license">Apache 2.0</string>
-    <string name="f15_author">Sideshow Foundry</string>
-    <string name="f15_url">https://profiles.google.com/sideshowfonts/about</string>
-    <string name="f15_category">##############################</string>
-    <string name="f16_name">VT323</string>
-    <string name="f16_license">SIL 1.1</string>
-    <string name="f16_author">Peter Hull</string>
-    <string name="f16_url">unkown</string>
-    <string name="f16_category">Technics</string>
-    <string name="f17_name">CarterOne</string>
-    <string name="f17_license">SIL 1.1</string>
-    <string name="f17_author">Vernon Adams</string>
-    <string name="f17_url">https://plus.google.com/107807505287232434305/about</string>
-    <string name="f17_category">Comic</string>
-    <string name="f18_name">Geo-Regular</string>
-    <string name="f18_license">SIL 1.1</string>
-    <string name="f18_author">Ben Weiner</string>
-    <string name="f18_url">http://readingtype.org.uk/</string>
-    <string name="f18_category">##############################</string>
-    <string name="f19_name">Sancreek</string>
-    <string name="f19_license">SIL 1.1</string>
-    <string name="f19_author">Vernon Adams</string>
-    <string name="f19_url">https://plus.google.com/107807505287232434305/about</string>
-    <string name="f19_category">Western</string>
+	<string-array name="fonts">
+		<item>MaidenOrange</item>
+	    <item>SIL 1.1</item>
+	    <item>Autor</item>
+	    <item>http://example.com/</item>
+	    <item>##############################</item>
+		<item>OSP-DIN</item>
+	    <item>SIL 1.1</item>
+	    <item>OSP</item>
+	    <item>http://ospublish.constantvzw.org</item>
+	    <item>##############################</item>
+		<item>CursiveSerif</item>
+	    <item>SIL 1.1</item>
+	    <item>wmk69</item>
+	    <item>wmk69@o2.pl</item>
+	    <item>##############################</item>
+	   	<item>Alfphabet</item>
+	    <item>SIL 1.1</item>
+	    <item>OSP</item>
+	    <item>http://ospublish.constantvzw.org</item>
+	    <item>##############################</item>
+	    <item>Segment14</item>
+	    <item>SIL 1.1</item>
+	    <item>Paul Flo Williams</item>
+	    <item>http://hisdeedsaredust.com/</item>
+	    <item>##############################</item>
+	    <item>Dotrice-Bold</item>
+	    <item>SIL 1.1</item>
+	    <item>Paul Flo Williams</item>
+	    <item>http://hisdeedsaredust.com/</item>
+	    <item>##############################</item>
+	    <item>PressStart2P</item>
+	    <item>GNU GPL</item>
+	    <item>Cody Boisclair "CodeMan38"</item>
+	    <item>http://zone38.net/font/</item>
+	    <item>Bitmap</item>
+	    <item>GNUTypewriter</item>
+	    <item>GNU GPL</item>
+	    <item>Lukasz Komsta</item>
+	    <item>www.komsta.net</item>
+	    <item>Typewriter</item>
+	    <item>Ubuntu-Title</item>
+	    <item>GNU GPL</item>
+	    <item>Volvoguy</item>
+	    <item>http://www.volvoguy.net/ubuntu/</item>
+	    <item>Technics</item>
+	    <item>MedievalSharp</item>
+	    <item>SIL 1.1</item>
+	    <item>Wojciech Kalinowski</item>
+	    <item>https://profiles.google.com/111812284535706126925/about</item>
+	    <item>Medieval</item>
+	    <item>LiberationSerif-Bold</item>
+	    <item>GNU GPL</item>
+	    <item>Red Hat</item>
+	    <item>https://fedorahosted.org/releases/l/i/liberation-fonts/</item>
+	    <item>Serif</item>
+	    <item>YanoneKaffeesatz</item>
+	    <item>SIL 1.1</item>
+	    <item>Jan Gerner</item>
+	    <item>http://www.yanone.de/typedesign/kaffeesatz/</item>
+	    <item>Sans serif</item>
+	    <item>GoudyBookletter1911</item>
+	    <item>GNU GPL</item>
+	    <item>Barry Schwartz</item>
+	    <item>http://crudfactory.com/</item>
+	    <item>Serif</item>
+	    <item>MaidenOrange</item>
+	    <item>Apache 2.0</item>
+	    <item>Astigmatic One Eye Typographic Institute</item>
+	    <item>http://www.astigmatic.com/</item>
+	    <item>Western</item>
+	    <item>Lobster</item>
+	    <item>SIL 1.1</item>
+	    <item>Pablo Impallari</item>
+	    <item>www.impallari.com</item>
+	    <item>##############################</item>
+	    <item>WalterTurncoat</item>
+	    <item>Apache 2.0</item>
+	    <item>Sideshow Foundry</item>
+	    <item>https://profiles.google.com/sideshowfonts/about</item>
+	    <item>##############################</item>
+	    <item>VT323</item>
+	    <item>SIL 1.1</item>
+	    <item>Peter Hull</item>
+	    <item>unkown</item>
+	    <item>Technics</item>
+	    <item>CarterOne</item>
+	    <item>SIL 1.1</item>
+	    <item>Vernon Adams</item>
+	    <item>https://plus.google.com/107807505287232434305/about</item>
+	    <item>Comic</item>
+	    <item>Geo-Regular</item>
+	    <item>SIL 1.1</item>
+	    <item>Ben Weiner</item>
+	    <item>http://readingtype.org.uk/</item>
+	    <item>##############################</item>
+	    <item>Sancreek</item>
+	    <item>SIL 1.1</item>
+	    <item>Vernon Adams</item>
+	    <item>https://plus.google.com/107807505287232434305/about</item>
+	    <item>Western</item>
+    </string-array>
 </resources>
