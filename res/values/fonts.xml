@@ -95,4 +95,9 @@
     <string name="f18_author">Ben Weiner</string>
     <string name="f18_url">http://readingtype.org.uk/</string>
     <string name="f18_category">##############################</string>
+    <string name="f19_name">Sancreek</string>
+    <string name="f19_license">SIL 1.1</string>
+    <string name="f19_author">Vernon Adams</string>
+    <string name="f19_url">https://plus.google.com/107807505287232434305/about</string>
+    <string name="f19_category">Western</string>
 </resources>

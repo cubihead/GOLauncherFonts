@@ -49,7 +49,7 @@ public class GOLauncherFontsActivity extends Activity {
         tv2.setText(getString(R.string.instruction));
         
         // fonts
-        madapter.add(new Font(getString(R.string.f0_name), getString(R.string.f0_license), getString(R.string.f0_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f0_name) + ".ttf")));
+        //madapter.add(new Font(getString(R.string.f0_name), getString(R.string.f0_license), getString(R.string.f0_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f0_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f1_name), getString(R.string.f1_license), getString(R.string.f1_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f1_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f2_name), getString(R.string.f2_license), getString(R.string.f2_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f2_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f3_name), getString(R.string.f3_license), getString(R.string.f3_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f3_name) + ".ttf")));
@@ -68,6 +68,7 @@ public class GOLauncherFontsActivity extends Activity {
         madapter.add(new Font(getString(R.string.f16_name), getString(R.string.f16_license), getString(R.string.f16_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f16_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f17_name), getString(R.string.f17_license), getString(R.string.f17_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f17_name) + ".ttf")));
         madapter.add(new Font(getString(R.string.f18_name), getString(R.string.f18_license), getString(R.string.f18_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f18_name) + ".ttf")));
+        madapter.add(new Font(getString(R.string.f19_name), getString(R.string.f19_license), getString(R.string.f19_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f19_name) + ".ttf")));
     }
     
     public class FontAdapter extends ArrayAdapter<Font> {
