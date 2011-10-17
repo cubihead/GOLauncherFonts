@@ -1,4 +1,4 @@
-package com.android.beecub.golauncher.golauncherfonts;
+package com.beecub.golauncher.golauncherfonts;
 
 import java.util.ArrayList;
 
