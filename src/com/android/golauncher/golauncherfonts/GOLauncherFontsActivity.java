@@ -2,6 +2,7 @@ package com.android.golauncher.golauncherfonts;
 
 import java.util.ArrayList;
 
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
@@ -24,6 +25,7 @@ public class GOLauncherFontsActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        Log.v(LOG_TAG, "0");
     }
     
     @SuppressWarnings("static-access")
