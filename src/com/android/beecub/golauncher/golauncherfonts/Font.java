@@ -1,4 +1,4 @@
-package com.android.golauncher.golauncherfonts;
+package com.android.beecub.golauncher.golauncherfonts;
 
 import android.graphics.Typeface;
 

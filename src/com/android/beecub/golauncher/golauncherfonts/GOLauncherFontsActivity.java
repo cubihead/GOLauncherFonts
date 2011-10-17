@@ -1,6 +1,8 @@
-package com.android.golauncher.golauncherfonts;
+package com.android.beecub.golauncher.golauncherfonts;
 
 import java.util.ArrayList;
+
+import com.android.golauncher.golauncherfonts.R;
 
 
 import android.app.Activity;
