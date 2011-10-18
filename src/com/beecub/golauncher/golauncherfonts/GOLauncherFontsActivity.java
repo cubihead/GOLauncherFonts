@@ -66,8 +66,7 @@ public class GOLauncherFontsActivity extends Activity {
             madapter.add(new Font(fonts[i], fonts[i+1], fonts[i+2], Typeface.createFromAsset(getAssets(), "fonts/" + fonts[i] + ".ttf")));
             i = i + 5;
         }
-        
-        
+                
         // fonts
         //madapter.add(new Font(getString(R.string.f0_name), getString(R.string.f0_license), getString(R.string.f0_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f0_name) + ".ttf")));
 //        madapter.add(new Font(getString(R.string.f1_name), getString(R.string.f1_license), getString(R.string.f1_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f1_name) + ".ttf")));

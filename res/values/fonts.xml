@@ -1,105 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string-array name="fonts">
+		<!-- 00 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<item>MaidenOrange</item>
 	    <item>SIL 1.1</item>
 	    <item>Autor</item>
 	    <item>http://example.com/</item>
 	    <item>##############################</item>
+	    <!-- 01 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<item>OSP-DIN</item>
 	    <item>SIL 1.1</item>
 	    <item>OSP</item>
 	    <item>http://ospublish.constantvzw.org</item>
 	    <item>##############################</item>
+	    <!-- 02 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<item>CursiveSerif</item>
 	    <item>SIL 1.1</item>
 	    <item>wmk69</item>
 	    <item>wmk69@o2.pl</item>
 	    <item>##############################</item>
+	    <!-- 03 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	   	<item>Alfphabet</item>
 	    <item>SIL 1.1</item>
 	    <item>OSP</item>
 	    <item>http://ospublish.constantvzw.org</item>
 	    <item>##############################</item>
+	    <!-- 04 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>Segment14</item>
 	    <item>SIL 1.1</item>
 	    <item>Paul Flo Williams</item>
 	    <item>http://hisdeedsaredust.com/</item>
 	    <item>##############################</item>
+	    <!-- 05 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>Dotrice-Bold</item>
 	    <item>SIL 1.1</item>
 	    <item>Paul Flo Williams</item>
 	    <item>http://hisdeedsaredust.com/</item>
 	    <item>##############################</item>
+	    <!-- 06 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>PressStart2P</item>
 	    <item>GNU GPL</item>
 	    <item>Cody Boisclair "CodeMan38"</item>
 	    <item>http://zone38.net/font/</item>
 	    <item>Bitmap</item>
+	    <!-- 07 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>GNUTypewriter</item>
 	    <item>GNU GPL</item>
 	    <item>Lukasz Komsta</item>
 	    <item>www.komsta.net</item>
 	    <item>Typewriter</item>
+	    <!-- 08 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>Ubuntu-Title</item>
 	    <item>GNU GPL</item>
 	    <item>Volvoguy</item>
 	    <item>http://www.volvoguy.net/ubuntu/</item>
 	    <item>Technics</item>
+	    <!-- 09 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>MedievalSharp</item>
 	    <item>SIL 1.1</item>
 	    <item>Wojciech Kalinowski</item>
 	    <item>https://profiles.google.com/111812284535706126925/about</item>
 	    <item>Medieval</item>
+	    <!-- 10 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>LiberationSerif-Bold</item>
 	    <item>GNU GPL</item>
 	    <item>Red Hat</item>
 	    <item>https://fedorahosted.org/releases/l/i/liberation-fonts/</item>
 	    <item>Serif</item>
+	    <!-- 11 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>YanoneKaffeesatz</item>
 	    <item>SIL 1.1</item>
 	    <item>Jan Gerner</item>
 	    <item>http://www.yanone.de/typedesign/kaffeesatz/</item>
 	    <item>Sans serif</item>
+	    <!-- 12 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>GoudyBookletter1911</item>
 	    <item>GNU GPL</item>
 	    <item>Barry Schwartz</item>
 	    <item>http://crudfactory.com/</item>
 	    <item>Serif</item>
+	    <!-- 13 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>MaidenOrange</item>
 	    <item>Apache 2.0</item>
 	    <item>Astigmatic One Eye Typographic Institute</item>
 	    <item>http://www.astigmatic.com/</item>
 	    <item>Western</item>
+	    <!-- 14 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>Lobster</item>
 	    <item>SIL 1.1</item>
 	    <item>Pablo Impallari</item>
 	    <item>www.impallari.com</item>
 	    <item>##############################</item>
+	    <!-- 15 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>WalterTurncoat</item>
 	    <item>Apache 2.0</item>
 	    <item>Sideshow Foundry</item>
 	    <item>https://profiles.google.com/sideshowfonts/about</item>
 	    <item>##############################</item>
+	    <!-- 16 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>VT323</item>
 	    <item>SIL 1.1</item>
 	    <item>Peter Hull</item>
 	    <item>unkown</item>
 	    <item>Technics</item>
+	    <!-- 17 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>CarterOne</item>
 	    <item>SIL 1.1</item>
 	    <item>Vernon Adams</item>
 	    <item>https://plus.google.com/107807505287232434305/about</item>
 	    <item>Comic</item>
+	    <!-- 18 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>Geo-Regular</item>
 	    <item>SIL 1.1</item>
 	    <item>Ben Weiner</item>
 	    <item>http://readingtype.org.uk/</item>
 	    <item>##############################</item>
+	    <!-- 19 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>Sancreek</item>
 	    <item>SIL 1.1</item>
 	    <item>Vernon Adams</item>
 	    <item>https://plus.google.com/107807505287232434305/about</item>
 	    <item>Western</item>
+	    <!-- 20 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	    <item>Salsa</item>
+	    <item>SIL 1.1</item>
+	    <item>John Vargas Beltrán</item>
+	    <item>https://plus.google.com/104510930456899325757/about</item>
+	    <item>##############################</item>
+	    <!-- 21 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     </string-array>
 </resources>
