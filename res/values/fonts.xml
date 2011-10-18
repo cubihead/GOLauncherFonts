@@ -128,5 +128,11 @@
 	    <item>https://plus.google.com/104510930456899325757/about</item>
 	    <item>##############################</item>
 	    <!-- 21 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	    <item>Rancho</item>
+	    <item>Apache 2.0</item>
+	    <item>Squid</item>
+	    <item>http://www.squidart.com/</item>
+	    <item>##############################</item>
+	    <!-- 22 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     </string-array>
 </resources>
