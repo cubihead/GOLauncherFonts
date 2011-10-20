@@ -3,16 +3,16 @@ package com.beecub.golauncher.golauncherfonts;
 import java.util.ArrayList;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
@@ -41,25 +41,8 @@ public class GOLauncherFontsActivity extends Activity {
             
             @Override
             public void onClick(View arg0) {
-                Dialog dialog = new Dialog(GOLauncherFontsActivity.this);
-                dialog.setContentView(R.layout.dialog_credits);
-                dialog.setTitle("Info - Credits");
-                dialog.setCancelable(true);
-                
-                TextView tv1 = (TextView) dialog.findViewById(R.id.bybeecub);
-                tv1.setText(Html.fromHtml(getString(R.string.bybeecub) + ", " + "<a href=\"" + "<a href=\"http://www.beecub.com.com\">http://beecub.com/</a>"));
-                tv1.setMovementMethod(LinkMovementMethod.getInstance());
-                
-                TextView tv2 = (TextView) dialog.findViewById(R.id.thanksto);
-                tv2.setText(getString(R.string.specialthanks));
-                
-                TextView tv3 = (TextView) dialog.findViewById(R.id.credits);
-                tv3.setText("" +
-                		"\nRobin Wolf - Translation French" +
-                		"\nQuim Booh - Translation Spanish" +
-                		"");
-                
-                dialog.show();
+                InfoDialog infoDialog = new InfoDialog(GOLauncherFontsActivity.this);                
+                infoDialog.show();
             }
         });
         
@@ -77,7 +60,6 @@ public class GOLauncherFontsActivity extends Activity {
         lv.setAdapter(madapter);
         lv.setOnItemClickListener(new OnItemClickListener() {
             public void onItemClick(AdapterView<?> a, View v, int position, long id) {
-                Log.v(LOG_TAG, "on click: " + madapter.getItem(position).getName());
                 
                 Intent intent = new Intent(GOLauncherFontsActivity.this, DetailedPreviewActivity.class);
                 Bundle b = new Bundle();
@@ -112,31 +94,32 @@ public class GOLauncherFontsActivity extends Activity {
         while(i < fonts.length) {
             madapter.add(new Font(fonts[i], fonts[i+1], fonts[i+2], fonts[i+3], "fonts/" + fonts[i] + ".ttf"));
             i = i + 5;
-        }
-                
-        // fonts
-        //madapter.add(new Font(getString(R.string.f0_name), getString(R.string.f0_license), getString(R.string.f0_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f0_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f1_name), getString(R.string.f1_license), getString(R.string.f1_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f1_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f2_name), getString(R.string.f2_license), getString(R.string.f2_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f2_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f3_name), getString(R.string.f3_license), getString(R.string.f3_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f3_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f4_name), getString(R.string.f4_license), getString(R.string.f4_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f4_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f5_name), getString(R.string.f5_license), getString(R.string.f5_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f5_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f6_name), getString(R.string.f6_license), getString(R.string.f6_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f6_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f7_name), getString(R.string.f7_license), getString(R.string.f7_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f7_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f8_name), getString(R.string.f8_license), getString(R.string.f8_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f8_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f9_name), getString(R.string.f9_license), getString(R.string.f9_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f9_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f10_name), getString(R.string.f10_license), getString(R.string.f10_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f10_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f11_name), getString(R.string.f11_license), getString(R.string.f11_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f11_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f12_name), getString(R.string.f12_license), getString(R.string.f12_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f12_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f13_name), getString(R.string.f13_license), getString(R.string.f13_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f13_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f14_name), getString(R.string.f14_license), getString(R.string.f14_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f14_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f15_name), getString(R.string.f15_license), getString(R.string.f15_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f15_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f16_name), getString(R.string.f16_license), getString(R.string.f16_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f16_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f17_name), getString(R.string.f17_license), getString(R.string.f17_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f17_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f18_name), getString(R.string.f18_license), getString(R.string.f18_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f18_name) + ".ttf")));
-//        madapter.add(new Font(getString(R.string.f19_name), getString(R.string.f19_license), getString(R.string.f19_author), Typeface.createFromAsset(getAssets(), "fonts/" + getString(R.string.f19_name) + ".ttf")));
-        
+        } 
     }
+    
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        case R.id.help:
+            HelpDialog helpDialog = new HelpDialog(this);
+            helpDialog.show();
+            return true;
+        case R.id.infocredits:
+            InfoDialog infoDialog = new InfoDialog(this);
+            infoDialog.show();
+            return true;
+        default:
+            return super.onOptionsItemSelected(item);
+        }
+    }     
+    
     
     public class FontAdapter extends ArrayAdapter<Font> {
         

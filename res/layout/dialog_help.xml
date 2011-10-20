@@ -3,15 +3,6 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
  	android:layout_height="wrap_content"
  	android:orientation="vertical" android:layout_width="fill_parent">
-	
-	<TextView 
-		android:id="@+id/bybeecub"
-		android:layout_width="fill_parent" 
-		android:layout_height="fill_parent"
-		android:text="by beecub" 
-		android:gravity="center"
-		android:paddingLeft="15dip"
-		android:paddingRight="15dip"/>
 		
 	<ImageView 
 		android:id="@+id/icon"
@@ -24,19 +15,10 @@
 	 	android:paddingBottom="15dip"/>	
 	 	
  	<TextView 
-		android:id="@+id/thanksto"
+		android:id="@+id/instructionadvanced"
 		android:layout_width="fill_parent" 
 		android:layout_height="fill_parent"
 		android:text="thanks to" 
-		android:gravity="center"
-		android:paddingLeft="15dip"
-		android:paddingRight="15dip"/>
-		
-	<TextView 
-		android:id="@+id/credits"
-		android:layout_width="fill_parent" 
-		android:layout_height="fill_parent"
-		android:text="list of ..." 
 		android:gravity="center"
 		android:paddingLeft="15dip"
 		android:paddingRight="15dip"/>
