@@ -1,12 +1,12 @@
 
 <resources>
-	<color name="background">#000000</color>
-	<color name="instructions">#272727</color>
-	<color name="preview">#1a1a1a</color>
-	<color name="textpreview">#ffffff</color>
-	<color name="textinstructions">#ffffff</color>
-	<color name="textname">#ffffff</color>
-	<color name="textauthor">#c5c5c5</color>
-	<color name="textlicense">#c5c5c5</color>
-	<color name="textdemo">#bfbfbf</color>
+	<color name="background">#ffffff</color>
+	<color name="backgroundinstructions">#bcbcbc</color>
+	<color name="backgroundname">#ababab</color>
+	<color name="textpreview">#000000</color>
+	<color name="textinstructions">#000000</color>
+	<color name="textname">#000000</color>
+	<color name="textauthor">#151515</color>
+	<color name="textlicense">#151515</color>
+	<color name="textdemo">#2b2b2b</color>
 </resources>

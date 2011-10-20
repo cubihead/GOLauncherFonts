@@ -3,18 +3,24 @@ package com.beecub.golauncher.golauncherfonts;
 import java.util.ArrayList;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -26,8 +32,37 @@ public class GOLauncherFontsActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
         Log.v(LOG_TAG, "0");
+        
+        ImageButton bu = (ImageButton) findViewById(R.id.imageButton1);
+        bu.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View arg0) {
+                Dialog dialog = new Dialog(GOLauncherFontsActivity.this);
+                dialog.setContentView(R.layout.dialog_credits);
+                dialog.setTitle("Info - Credits");
+                dialog.setCancelable(true);
+                
+                TextView tv1 = (TextView) dialog.findViewById(R.id.bybeecub);
+                tv1.setText(Html.fromHtml(getString(R.string.bybeecub) + ", " + "<a href=\"" + "<a href=\"http://www.beecub.com.com\">http://beecub.com/</a>"));
+                tv1.setMovementMethod(LinkMovementMethod.getInstance());
+                
+                TextView tv2 = (TextView) dialog.findViewById(R.id.thanksto);
+                tv2.setText(getString(R.string.specialthanks));
+                
+                TextView tv3 = (TextView) dialog.findViewById(R.id.credits);
+                tv3.setText("" +
+                		"\nRobin Wolf - Translation French" +
+                		"\nQuim Booh - Translation Spanish" +
+                		"");
+                
+                dialog.show();
+            }
+        });
+        
     }
     
     @SuppressWarnings("static-access")

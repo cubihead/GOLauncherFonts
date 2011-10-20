@@ -80,6 +80,7 @@
 	            android:id="@+id/demo"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
+	            android:gravity="top"
 	            android:paddingTop="5dip"
 	            android:paddingRight="5dip"
 	            android:paddingLeft="8dip"
