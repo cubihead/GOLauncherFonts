@@ -20,7 +20,7 @@
 	 	android:layout_centerHorizontal="true"
 	 	android:src="@drawable/ic_launcher"
 	 	android:gravity="center"
-	 	android:paddingTop="15dip"
+	 	android:paddingTop="5dip"
 	 	android:paddingBottom="15dip"/>	
 	 	
  	<TextView 
@@ -39,6 +39,7 @@
 		android:text="list of ..." 
 		android:gravity="center"
 		android:paddingLeft="15dip"
-		android:paddingRight="15dip"/>
+		android:paddingRight="15dip"
+		android:paddingBottom="15dip"/>
  
 </LinearLayout>

@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/help"
           android:title="@string/help"
-          android:icon="@drawable/ic_launcher" />
+          android:icon="@drawable/ic_menu_help" />
     <item android:id="@+id/infocredits"
           android:title="@string/info"
-          android:icon="@drawable/ic_launcher" /> />
+          android:icon="@drawable/ic_menu_info" /> />
 </menu>

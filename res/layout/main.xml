@@ -5,19 +5,18 @@
 	android:layout_height="fill_parent"
 	android:background="@color/background"
 	android:orientation="vertical">
-	<LinearLayout
-		android:id="@+id/linearLayout2"
-		android:layout_height="wrap_content"
+	<RelativeLayout
 		android:layout_width="fill_parent"
-	>
-		<ImageButton
-			android:src="@drawable/ic_launcher" 
-			android:layout_width="wrap_content" 
-			android:layout_height="wrap_content" 
-			android:id="@+id/imageButton1"
-			android:background="@color/backgroundname">
-		</ImageButton>
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1"
+		android:background="@color/backgroundname">
 		<TextView
+			android:layout_height="wrap_content"
+			android:id="@+id/preview"
+			android:layout_width="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@+id/imageButton1" 
+			android:layout_toLeftOf="@+id/imageButton2" 
 			android:gravity="center"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:textStyle="bold"
@@ -26,27 +25,67 @@
 			android:textColor="@color/textpreview"
 			android:text="Font-Preview"
 			android:paddingTop="5dip"
-			android:id="@+id/preview"
-			android:layout_height="fill_parent"
-			android:layout_width="fill_parent"
-		>
+			>
 		</TextView>
-	</LinearLayout>
+		<ImageButton
+			android:src="@drawable/ic_launcher"
+			android:id="@+id/imageButton1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@color/backgroundname"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true">
+		</ImageButton>
+		<ImageButton
+			android:src="@drawable/ic_menu_help"
+			 android:id="@+id/imageButton2" 
+			 android:layout_width="wrap_content" 
+			 android:layout_height="wrap_content"
+			 android:background="@color/backgroundname" 
+			 android:layout_alignParentTop="true" 
+			 android:layout_alignParentRight="true">
+		 </ImageButton>
+	</RelativeLayout>
+<!-- 	<LinearLayout -->
+<!-- 		android:id="@+id/linearLayout2" -->
+<!-- 		android:layout_height="wrap_content" -->
+<!-- 		android:layout_width="fill_parent"	> -->
+<!-- 		<ImageButton -->
+<!-- 			android:src="@drawable/ic_launcher" -->
+<!-- 			android:layout_width="wrap_content" -->
+<!-- 			android:layout_height="wrap_content" -->
+<!-- 			android:id="@+id/imageButton1" -->
+<!-- 			android:background="@color/backgroundname"> -->
+<!-- 		</ImageButton> -->
+<!-- 		<TextView -->
+<!-- 			android:gravity="center" -->
+<!-- 			android:textAppearance="?android:attr/textAppearanceLarge" -->
+<!-- 			android:textStyle="bold" -->
+<!-- 			android:background="@color/backgroundname" -->
+<!-- 			android:paddingBottom="5dip" -->
+<!-- 			android:textColor="@color/textpreview" -->
+<!-- 			android:text="Font-Preview" -->
+<!-- 			android:paddingTop="5dip" -->
+<!-- 			android:id="@+id/preview" -->
+<!-- 			android:layout_height="fill_parent" -->
+<!-- 			android:layout_width="fill_parent"> -->
+<!-- 		</TextView> -->
+<!-- 	</LinearLayout> -->
 	<LinearLayout
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/linearLayout1"
 		android:orientation="vertical">
-		<TextView 
+		<TextView
 			android:gravity="center"
-			android:textAppearance="?android:attr/textAppearanceSmall" 
+			android:textAppearance="?android:attr/textAppearanceSmall"
 			android:layout_height="wrap_content"
 			android:background="@color/backgroundinstructions"
-			android:paddingBottom="2dip" 
-			android:textColor="@color/textinstructions" 
-			android:text="Install instructions" 
-			android:paddingTop="2dip" 
-			android:id="@+id/instructions" 
+			android:paddingBottom="2dip"
+			android:textColor="@color/textinstructions"
+			android:text="Install instructions"
+			android:paddingTop="2dip"
+			android:id="@+id/instructions"
 			android:layout_width="fill_parent">
 		</TextView>
 		<ListView

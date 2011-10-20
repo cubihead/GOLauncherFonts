@@ -50,15 +50,20 @@
 	    android:layout_marginLeft="5dip"
 	    android:layout_marginRight="5dip">
     </TextView>
-    <TextView 
-	    android:text="Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam lib" 
-	    android:id="@+id/textView5" 
-	    android:layout_height="wrap_content"
-	    android:textAppearance="?android:attr/textAppearanceMedium"
-	    android:layout_marginTop="5dip"
-	    android:layout_width="fill_parent"
-	    android:textColor="@color/textdemo"
-	    android:layout_marginLeft="5dip"
-	    android:layout_marginRight="5dip">
-	</TextView>
+    <ScrollView 
+	    android:id="@+id/scrollView1" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content">
+	    <TextView 
+		    android:text="Lorem ipsum dolor sit amet, emphasis consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam lib" 
+		    android:id="@+id/textView5" 
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:layout_marginTop="5dip"
+		    android:layout_width="fill_parent"
+		    android:textColor="@color/textdemo"
+		    android:paddingLeft="5dip"
+		    android:paddingRight="5dip">
+		</TextView>
+	</ScrollView>
 </LinearLayout>

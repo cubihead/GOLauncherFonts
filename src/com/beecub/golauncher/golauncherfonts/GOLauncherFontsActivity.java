@@ -28,24 +28,14 @@ public class GOLauncherFontsActivity extends Activity {
     public static ArrayList<Font> mFonts = new ArrayList<Font>();
     public static FontAdapter madapter;
     public static final String LOG_TAG = "beecub";
+    private int currentPosition;
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
-        Log.v(LOG_TAG, "0");
-        
-        ImageButton bu = (ImageButton) findViewById(R.id.imageButton1);
-        bu.setOnClickListener(new OnClickListener() {
-            
-            @Override
-            public void onClick(View arg0) {
-                InfoDialog infoDialog = new InfoDialog(GOLauncherFontsActivity.this);                
-                infoDialog.show();
-            }
-        });
-        
+        Log.v(LOG_TAG, "0"); 
     }
     
     @SuppressWarnings("static-access")
@@ -70,8 +60,30 @@ public class GOLauncherFontsActivity extends Activity {
                 b.putString("typeface", madapter.getItem(position).getTypeface());
                 intent.putExtras(b);
                 startActivity(intent);
+                
+                currentPosition = position;
                 //finish();
                 
+            }
+        });
+        lv.setSelection(currentPosition);
+        
+        ImageButton bu1 = (ImageButton) findViewById(R.id.imageButton1);
+        bu1.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View arg0) {
+                InfoDialog infoDialog = new InfoDialog(GOLauncherFontsActivity.this);                
+                infoDialog.show();
+            }
+        });
+        ImageButton bu2 = (ImageButton) findViewById(R.id.imageButton2);
+        bu2.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View arg0) {
+                HelpDialog helpDialog = new HelpDialog(GOLauncherFontsActivity.this);                
+                helpDialog.show();
             }
         });
         
