@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -11,6 +12,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -37,14 +40,23 @@ public class GOLauncherFontsActivity extends Activity {
         
         ListView lv = (ListView) findViewById(R.id.prieviewList);
         lv.setAdapter(madapter);
-        
-//        lv.setOnItemClickListener(new OnItemClickListener() {
-//            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-//               if(v != null) {
-//                   v.inflate(getBaseContext(), R.layout.row_preview, parent);
-//               }
-//            }
-//        });
+        lv.setOnItemClickListener(new OnItemClickListener() {
+            public void onItemClick(AdapterView<?> a, View v, int position, long id) {
+                Log.v(LOG_TAG, "on click: " + madapter.getItem(position).getName());
+                
+                Intent intent = new Intent(GOLauncherFontsActivity.this, DetailedPreviewActivity.class);
+                Bundle b = new Bundle();
+                b.putString("name", madapter.getItem(position).getName());
+                b.putString("author", madapter.getItem(position).getAuthor());
+                b.putString("license", madapter.getItem(position).getLicense());
+                b.putString("link", madapter.getItem(position).getLink());
+                b.putString("typeface", madapter.getItem(position).getTypeface());
+                intent.putExtras(b);
+                startActivity(intent);
+                //finish();
+                
+            }
+        });
         
         TextView tv1 = (TextView) findViewById(R.id.preview);
         tv1.setText(getString(R.string.preview));
@@ -63,7 +75,7 @@ public class GOLauncherFontsActivity extends Activity {
         
         int i = 5;
         while(i < fonts.length) {
-            madapter.add(new Font(fonts[i], fonts[i+1], fonts[i+2], Typeface.createFromAsset(getAssets(), "fonts/" + fonts[i] + ".ttf")));
+            madapter.add(new Font(fonts[i], fonts[i+1], fonts[i+2], fonts[i+3], "fonts/" + fonts[i] + ".ttf"));
             i = i + 5;
         }
                 
@@ -113,11 +125,9 @@ public class GOLauncherFontsActivity extends Activity {
                 TextView tv3 = (TextView) v.findViewById(R.id.author);
                 TextView tv4 = (TextView) v.findViewById(R.id.demo);
                 
-                tv1.setTypeface(o.getTypeface());
-                tv4.setTypeface(o.getTypeface());
-                
                 if(tv1 != null) {
                     tv1.setText(o.getName());
+                    tv1.setTypeface(Typeface.createFromAsset(getAssets(), o.getTypeface()));
                 }
                 if(tv2 != null) {
                     tv2.setText(o.getLicense());
@@ -127,6 +137,7 @@ public class GOLauncherFontsActivity extends Activity {
                 }
                 if(tv4 != null) {
                     tv4.setText(getString(R.string.demo));
+                    tv4.setTypeface(Typeface.createFromAsset(getAssets(), o.getTypeface()));
                 }
             }
             return v;

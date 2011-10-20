@@ -1,17 +1,17 @@
 package com.beecub.golauncher.golauncherfonts;
 
-import android.graphics.Typeface;
-
 public class Font {
     private String name;
     private String license;
     private String author;
-    private Typeface typeface;
+    private String link;
+    private String typeface;
     
-    public Font(String name, String license, String author, Typeface typeface) {
+    public Font(String name, String license, String author, String link, String typeface) {
         setName(name);
         setLicense(license);
         setAuthor(author);
+        setLink(link);
         setTypeface(typeface);
     }
     
@@ -24,6 +24,12 @@ public class Font {
     public String getLicense() {
         return license;
     }
+    public String getLink() {
+        return link;
+    }
+    public void setLink(String link) {
+        this.link = link;
+    }
     public void setLicense(String license) {
         this.license = license;
     }
@@ -33,10 +39,10 @@ public class Font {
     public void setAuthor(String author) {
         this.author = author;
     }
-    public Typeface getTypeface() {
+    public String getTypeface() {
         return typeface;
     }
-    public void setTypeface(Typeface typeface) {
+    public void setTypeface(String typeface) {
         this.typeface = typeface;
     }
 }
