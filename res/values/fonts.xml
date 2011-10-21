@@ -140,5 +140,11 @@
 	    <item>http://www.fontdiner.com/</item>
 	    <item>##############################</item>
 	    <!-- 23 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>JustAnotherHand</item>
+	    <item>Apache 2.0</item>
+	    <item>Astigmatic</item>
+	    <item>http://www.astigmatic.com/</item>
+	    <item>##############################</item>
+	    <!-- 24 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     </string-array>
 </resources>
