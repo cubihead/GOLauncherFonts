@@ -23,7 +23,7 @@ public class InfoDialog extends Dialog {
         setCancelable(true);
         
         TextView tv1 = (TextView) findViewById(R.id.bybeecub);
-        tv1.setText(Html.fromHtml(context.getString(R.string.bybeecub) + ", " + "<a href=\"" + "<a href=\"http://www.beecub.com.com\">http://beecub.com/</a>"));
+        tv1.setText(Html.fromHtml(context.getString(R.string.bybeecub) + ", " + "<a href=\"" + "http://www.beecub.com\">http://beecub.com/</a>"));
         tv1.setMovementMethod(LinkMovementMethod.getInstance());
         
         TextView tv2 = (TextView) findViewById(R.id.thanksto);

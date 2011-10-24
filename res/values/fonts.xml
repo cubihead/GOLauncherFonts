@@ -146,5 +146,11 @@
 	    <item>http://www.astigmatic.com/</item>
 	    <item>##############################</item>
 	    <!-- 24 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	    <item>Roboto (Android 4.0)</item>
+	    <item>Apache 2.0</item>
+	    <item>Christian Robertson</item>
+	    <item>http://betatype.com/</item>
+	    <item>##############################</item>
+	    <!-- 25 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     </string-array>
 </resources>
