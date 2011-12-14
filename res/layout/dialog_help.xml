@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
-	xmlns:android="http://schemas.android.com/apk/res/android"
- 	android:layout_height="wrap_content"
- 	android:orientation="vertical" android:layout_width="fill_parent">
-		
-	<ImageView 
-		android:id="@+id/icon"
-	 	android:layout_width="fill_parent" 
-	 	android:layout_height="fill_parent"
-	 	android:layout_centerHorizontal="true"
-	 	android:src="@drawable/ic_launcher"
-	 	android:gravity="center"
-	 	android:paddingTop="5dip"
-	 	android:paddingBottom="15dip"/>	
-	 	
- 	<TextView 
-		android:id="@+id/instructionadvanced"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/scrollView1" 
 		android:layout_width="fill_parent" 
-		android:layout_height="fill_parent"
-		android:text="thanks to" 
-		android:gravity="center"
-		android:paddingLeft="15dip"
-		android:paddingRight="15dip"
-		android:paddingBottom="15dip"/>
- 
-</LinearLayout>
+		android:layout_height="wrap_content">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_width="fill_parent">
+		
+		<ImageView
+			android:id="@+id/icon"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_centerHorizontal="true"
+			android:src="@drawable/ic_launcher"
+			android:gravity="center"
+			android:paddingTop="5dip"
+			android:paddingBottom="15dip" />
+
+		<TextView
+			android:id="@+id/instructionadvanced"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="thanks to"
+			android:gravity="center"
+			android:paddingLeft="15dip"
+			android:paddingRight="15dip"
+			android:paddingBottom="15dip" />
+			
+		<ImageView
+			android:id="@+id/imageView1" 
+			android:layout_width="wrap_content"
+			android:layout_height="450dip"
+			android:src="@drawable/screenshot_1" 
+			android:paddingBottom="15dip">
+		</ImageView>
+		
+	</LinearLayout>
+	
+</ScrollView>

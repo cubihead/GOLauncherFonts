@@ -10,7 +10,7 @@
     <string name="help">Hilfe</string>
     <string name="pleasewait">Bitte warten</string>
     <string name="instruction">Zur Verwendung der Schriftarten müssen Sie diese über die GOLauncher Einstellungen scannen und anschließend auswählen.</string>
-    <string name="instructionadvanced">Home Screen\n-> Menü öffnen\n-> Einstellungen\n -> Erweiterte Einstellungen\n\n -> Schriftart scannen, -> Schriftart</string>
+    <string name="instructionadvanced">Gehe sicher das GOLauncher aktiv ist (siehe Screenshot unten)\n\nHome Screen\n-> Menü öffnen\n-> Einstellungen\n -> Erweiterte Einstellungen\n\n -> Schriftart scannen, -> Schriftart</string>
     <string name="preview">Vorschau</string>
     <string name="source_1">Alle Schriftarten stammen von</string>
     <string name="name">Name</string>

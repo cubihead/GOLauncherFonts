@@ -1,99 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:background="@color/background"
 	android:orientation="vertical">
-	<RelativeLayout
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/relativeLayout1"
-		android:background="@color/backgroundname">
-		<TextView
-			android:layout_height="wrap_content"
-			android:id="@+id/preview"
-			android:layout_width="wrap_content"
-			android:layout_alignParentTop="true"
-			android:layout_toRightOf="@+id/imageButton1" 
-			android:layout_toLeftOf="@+id/imageButton2" 
-			android:gravity="center"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:textStyle="bold"
-			android:background="@color/backgroundname"
-			android:paddingBottom="5dip"
-			android:textColor="@color/textpreview"
-			android:text="Font-Preview"
-			android:paddingTop="5dip"
-			>
-		</TextView>
-		<ImageButton
-			android:src="@drawable/ic_launcher"
-			android:id="@+id/imageButton1"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:background="@color/backgroundname"
-			android:layout_alignParentTop="true"
-			android:layout_alignParentLeft="true">
-		</ImageButton>
-		<ImageButton
-			android:src="@drawable/ic_menu_help"
-			 android:id="@+id/imageButton2" 
-			 android:layout_width="wrap_content" 
-			 android:layout_height="wrap_content"
-			 android:background="@color/backgroundname" 
-			 android:layout_alignParentTop="true" 
-			 android:layout_alignParentRight="true">
-		 </ImageButton>
-	</RelativeLayout>
-<!-- 	<LinearLayout -->
-<!-- 		android:id="@+id/linearLayout2" -->
-<!-- 		android:layout_height="wrap_content" -->
-<!-- 		android:layout_width="fill_parent"	> -->
-<!-- 		<ImageButton -->
-<!-- 			android:src="@drawable/ic_launcher" -->
-<!-- 			android:layout_width="wrap_content" -->
-<!-- 			android:layout_height="wrap_content" -->
-<!-- 			android:id="@+id/imageButton1" -->
-<!-- 			android:background="@color/backgroundname"> -->
-<!-- 		</ImageButton> -->
-<!-- 		<TextView -->
-<!-- 			android:gravity="center" -->
-<!-- 			android:textAppearance="?android:attr/textAppearanceLarge" -->
-<!-- 			android:textStyle="bold" -->
-<!-- 			android:background="@color/backgroundname" -->
-<!-- 			android:paddingBottom="5dip" -->
-<!-- 			android:textColor="@color/textpreview" -->
-<!-- 			android:text="Font-Preview" -->
-<!-- 			android:paddingTop="5dip" -->
-<!-- 			android:id="@+id/preview" -->
-<!-- 			android:layout_height="fill_parent" -->
-<!-- 			android:layout_width="fill_parent"> -->
-<!-- 		</TextView> -->
-<!-- 	</LinearLayout> -->
 	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
 		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/linearLayout1"
-		android:orientation="vertical">
-		<TextView
-			android:gravity="center"
-			android:textAppearance="?android:attr/textAppearanceSmall"
-			android:layout_height="wrap_content"
-			android:background="@color/backgroundinstructions"
-			android:paddingBottom="2dip"
-			android:textColor="@color/textinstructions"
-			android:text="Install instructions"
-			android:paddingTop="2dip"
-			android:id="@+id/instructions"
-			android:layout_width="fill_parent">
-		</TextView>
-		<ListView
-			android:layout_height="wrap_content"
+		android:layout_height="fill_parent"
+		android:background="@color/background"
+		android:orientation="vertical" 
+		android:layout_above="@+id/linearLayout2">
+		<RelativeLayout
 			android:layout_width="fill_parent"
-			android:id="@+id/prieviewList"
-			android:clickable="true"
-			android:dividerHeight="2dp">
-		</ListView>
+			android:layout_height="wrap_content"
+			android:id="@+id/relativeLayout1"
+			android:background="@color/backgroundname">
+			<TextView
+				android:layout_height="wrap_content"
+				android:id="@+id/preview"
+				android:layout_width="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_toRightOf="@+id/imageButton1" 
+				android:layout_toLeftOf="@+id/imageButton2" 
+				android:gravity="center"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textStyle="bold"
+				android:background="@color/backgroundname"
+				android:paddingBottom="5dip"
+				android:textColor="@color/textpreview"
+				android:text="Font-Preview"
+				android:paddingTop="5dip"
+				>
+			</TextView>
+			<ImageButton
+				android:src="@drawable/ic_launcher"
+				android:id="@+id/imageButton1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@color/backgroundname"
+				android:layout_alignParentTop="true"
+				android:layout_alignParentLeft="true">
+			</ImageButton>
+			<ImageButton
+				android:src="@drawable/ic_menu_help"
+				 android:id="@+id/imageButton2" 
+				 android:layout_width="wrap_content" 
+				 android:layout_height="wrap_content"
+				 android:background="@color/backgroundname" 
+				 android:layout_alignParentTop="true" 
+				 android:layout_alignParentRight="true">
+			 </ImageButton>
+		</RelativeLayout>
+	<!-- 	<LinearLayout -->
+	<!-- 		android:id="@+id/linearLayout2" -->
+	<!-- 		android:layout_height="wrap_content" -->
+	<!-- 		android:layout_width="fill_parent"	> -->
+	<!-- 		<ImageButton -->
+	<!-- 			android:src="@drawable/ic_launcher" -->
+	<!-- 			android:layout_width="wrap_content" -->
+	<!-- 			android:layout_height="wrap_content" -->
+	<!-- 			android:id="@+id/imageButton1" -->
+	<!-- 			android:background="@color/backgroundname"> -->
+	<!-- 		</ImageButton> -->
+	<!-- 		<TextView -->
+	<!-- 			android:gravity="center" -->
+	<!-- 			android:textAppearance="?android:attr/textAppearanceLarge" -->
+	<!-- 			android:textStyle="bold" -->
+	<!-- 			android:background="@color/backgroundname" -->
+	<!-- 			android:paddingBottom="5dip" -->
+	<!-- 			android:textColor="@color/textpreview" -->
+	<!-- 			android:text="Font-Preview" -->
+	<!-- 			android:paddingTop="5dip" -->
+	<!-- 			android:id="@+id/preview" -->
+	<!-- 			android:layout_height="fill_parent" -->
+	<!-- 			android:layout_width="fill_parent"> -->
+	<!-- 		</TextView> -->
+	<!-- 	</LinearLayout> -->
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1"
+			android:orientation="vertical">
+			<TextView
+				android:gravity="center"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_height="wrap_content"
+				android:background="@color/backgroundinstructions"
+				android:paddingBottom="2dip"
+				android:textColor="@color/textinstructions"
+				android:text="Install instructions"
+				android:paddingTop="2dip"
+				android:id="@+id/instructions"
+				android:layout_width="fill_parent">
+			</TextView>
+			<ListView
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:id="@+id/prieviewList"
+				android:clickable="true"
+				android:dividerHeight="2dp">
+			</ListView>
+		</LinearLayout>
 	</LinearLayout>
-</LinearLayout>
+		<LinearLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true" 
+	    android:layout_alignParentLeft="true" 
+	    android:id="@+id/linearLayout2">
+	  	<com.google.ads.AdView android:id="@+id/adView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			ads:adUnitId="a14ee7b3dd6a2f3"
+			ads:adSize="BANNER"
+			ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID, A80669BDFE9B85AEB95D301763EE60A2"
+			ads:loadAdOnCreate="true"/>
+	</LinearLayout>
+</RelativeLayout>

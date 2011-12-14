@@ -29,13 +29,14 @@ public class GOLauncherFontsActivity extends Activity {
     public static FontAdapter madapter;
     public static final String LOG_TAG = "beecub";
     private int currentPosition;
+
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
-        Log.v(LOG_TAG, "0"); 
+        Log.v(LOG_TAG, "0");
     }
     
     @SuppressWarnings("static-access")
@@ -130,8 +131,7 @@ public class GOLauncherFontsActivity extends Activity {
         default:
             return super.onOptionsItemSelected(item);
         }
-    }     
-    
+    }
     
     public class FontAdapter extends ArrayAdapter<Font> {
         

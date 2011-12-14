@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string-array name="fonts">
-		<!-- 27 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- 34 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<item>Name</item>
 	    <item>License</item>
 	    <item>Author</item>
@@ -10,13 +10,55 @@
 	    <!-- 00 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
    	    <item>Roboto (Android 4.0)</item>
 	    <item>Apache 2.0</item>
-	    <item>Sideshow Foundry</item>
-	    <item>https://profiles.google.com/sideshowfonts/about</item>
+	    <item>Christian Robertson</item>
+	    <item>http://betatype.com/</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>MountainsofChristmas</item>
+	    <item>Apache 2.0</item>
+	    <item>Tart Workshop</item>
+	    <item>http://www.tartworkshop.com/tart_workshop%21.html</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>Iceland</item>
+	    <item>SIL 1.1</item>
+	    <item>Cyreal</item>
+	    <item>http://cyreal.org/</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>Aladin</item>
+	    <item>SIL 1.1</item>
+	    <item>Sudtipos</item>
+	    <item>http://sudtipos.com/home</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>BubblegumSans</item>
+	    <item>SIL 1.1</item>
+	    <item>Sudtipos</item>
+	    <item>http://sudtipos.com/home</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>Baumans</item>
+	    <item>SIL 1.1</item>
+	    <item>Cyreal</item>
+	    <item>http://cyreal.org/</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>Fascinate</item>
+	    <item>SIL 1.1</item>
+	    <item>Astigmatic</item>
+	    <item>http://www.astigmatic.com/</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>SpicyRice</item>
+	    <item>SIL 1.1</item>
+	    <item>Astigmatic</item>
+	    <item>http://www.astigmatic.com/</item>
 	    <item>##############################</item>
 	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
    	    <item>CreepsterCaps</item>
 	    <item>Apache 2.0</item>
-	    <item>Christian Robertson</item>
+	    <item>Sideshow Foundry</item>
 	    <item>http://betatype.com/</item>
 	    <item>##############################</item>
 	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -94,7 +136,7 @@
 	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>MaidenOrange</item>
 	    <item>Apache 2.0</item>
-	    <item>Astigmatic One Eye Typographic Institute</item>
+	    <item>Astigmatic</item>
 	    <item>http://www.astigmatic.com/</item>
 	    <item>Western</item>
 	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -122,7 +164,7 @@
 	    <item>https://plus.google.com/107807505287232434305/about</item>
 	    <item>Comic</item>
 	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-	    <item>Geo-Regular</item>
+	    <item>Geo</item>
 	    <item>SIL 1.1</item>
 	    <item>Ben Weiner</item>
 	    <item>http://readingtype.org.uk/</item>
@@ -157,7 +199,7 @@
 	    <item>Astigmatic</item>
 	    <item>http://www.astigmatic.com/</item>
 	    <item>##############################</item>
-	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	    <!-- 1 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 	    <item>Tangerine</item>
 	    <item>SIL 1.1</item>
 	    <item>Toshi Omagari</item>

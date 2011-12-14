@@ -11,7 +11,7 @@
     <string name="help">Help</string>
     <string name="pleasewait">Please wait</string>
     <string name="instruction">Scan the fonts in your GOLauncher settings and apply them there.</string>
-    <string name="instructionadvanced">Home Screen\n-> Open Menu\n-> Preferences\n -> Advanced Settings\n\n -> Scan Font, -> Font</string>
+    <string name="instructionadvanced">Be sure GOLauncher is enabled (see menu screenshot below)\n\nHome Screen\n-> Open Menu\n-> Preferences\n -> Advanced Settings\n\n -> Scan Font, -> Font</string>
     <string name="preview">Preview</string>
     <string name="source_1">Font source</string>
     <string name="name">Name</string>
