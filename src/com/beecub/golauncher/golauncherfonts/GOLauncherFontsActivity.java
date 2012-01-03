@@ -2,9 +2,13 @@ package com.beecub.golauncher.golauncherfonts;
 
 import java.util.ArrayList;
 
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -29,7 +33,9 @@ public class GOLauncherFontsActivity extends Activity {
     public static FontAdapter madapter;
     public static final String LOG_TAG = "beecub";
     private int currentPosition;
-
+    
+    private GoogleAnalyticsTracker tracker;
+    
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,6 +43,28 @@ public class GOLauncherFontsActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
         Log.v(LOG_TAG, "0");
+        
+        tracker = GoogleAnalyticsTracker.getInstance();        
+        tracker.startNewSession("UA-28053673-1", this);        
+        tracker.trackPageView("/GOLauncherFontsHomeScreen");        
+        PackageInfo pinfo;
+        int versionNumber = 0;
+        try {
+            pinfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            versionNumber = pinfo.versionCode;
+        } catch (NameNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        tracker.trackPageView("/GOLauncherFontsVersion" + versionNumber);
+        tracker.dispatch();
+    }
+    
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        tracker.dispatch();
+        tracker.stopSession();
     }
     
     @SuppressWarnings("static-access")
@@ -51,6 +79,12 @@ public class GOLauncherFontsActivity extends Activity {
         lv.setAdapter(madapter);
         lv.setOnItemClickListener(new OnItemClickListener() {
             public void onItemClick(AdapterView<?> a, View v, int position, long id) {
+                
+                tracker.trackEvent(
+                        "Clicks",  // Category
+                        "AndvancedPreview",  // Action
+                        "clicked", // Label
+                        1);       // Value
                 
                 Intent intent = new Intent(GOLauncherFontsActivity.this, DetailedPreviewActivity.class);
                 Bundle b = new Bundle();
@@ -127,6 +161,9 @@ public class GOLauncherFontsActivity extends Activity {
         case R.id.infocredits:
             InfoDialog infoDialog = new InfoDialog(this);
             infoDialog.show();
+            return true;            
+        case R.id.quit:
+            finish();
             return true;
         default:
             return super.onOptionsItemSelected(item);

@@ -104,7 +104,7 @@
 			</ListView>
 		</LinearLayout>
 	</LinearLayout>
-		<LinearLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	<LinearLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
 	    android:orientation="vertical"
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content"
