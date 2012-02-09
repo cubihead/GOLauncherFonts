@@ -12,7 +12,7 @@ public class HelpDialog extends Dialog {
         super(context);
         this.context = context;
     }
-
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

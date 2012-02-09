@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string-array name="fonts">
-		<!-- 34 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<!-- 37 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<item>Name</item>
 	    <item>License</item>
 	    <item>Author</item>
 	    <item>http://example.com/</item>
 	    <item>##############################</item>
 	    <!-- 00 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-   	    <item>Roboto (Android 4.0)</item>
-	    <item>Apache 2.0</item>
-	    <item>Christian Robertson</item>
-	    <item>http://betatype.com/</item>
+	    <item>Roboto (Android 4.0)</item>
+		<item>Apache 2.0</item>
+		<item>Christian Robertson</item>
+		<item>http://betatype.com/</item>
+		<item>##############################</item>
+		<!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>Iceberg</item>
+	    <item>SIL 1.1</item>
+	    <item>Cyreal</item>
+	    <item>http://cyreal.org/</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	    <item>Shojumaru</item>
+	    <item>SIL 1.1</item>
+	    <item>Astigmatic</item>
+	    <item>http://www.astigmatic.com/</item>
+	    <item>##############################</item>
+	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+   	    <item>MacondoSwashCaps</item>
+	    <item>SIL 1.1</item>
+	    <item>John Vargas Beltrán</item>
+	    <item>http://www.johnvargasbeltran.com/</item>
 	    <item>##############################</item>
 	    <!--  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
    	    <item>Acme</item>

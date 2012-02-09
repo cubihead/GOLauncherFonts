@@ -12,6 +12,8 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -127,6 +129,9 @@ public class GOLauncherFontsActivity extends Activity {
         TextView tv2 = (TextView) findViewById(R.id.instructions);
         tv2.setText(getString(R.string.instruction));
         
+        TextView tv3 = (TextView) findViewById(R.id.newapp);
+        tv3.setText(Html.fromHtml("<a href=\"https://market.android.com/details?id=com.beecub.tools.fonts\">" + "\"GO Launcher Fonts 2\" - More Fonts" + "</a>"));
+        tv3.setMovementMethod(LinkMovementMethod.getInstance());
         
         // 1 = Name
         // 2 = License
@@ -163,6 +168,8 @@ public class GOLauncherFontsActivity extends Activity {
             infoDialog.show();
             return true;            
         case R.id.quit:
+            tracker.dispatch();
+            tracker.stopSession();
             finish();
             return true;
         default:

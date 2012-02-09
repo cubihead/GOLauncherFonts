@@ -31,8 +31,7 @@
 				android:paddingBottom="5dip"
 				android:textColor="@color/textpreview"
 				android:text="Font-Preview"
-				android:paddingTop="5dip"
-				>
+				android:paddingTop="5dip">
 			</TextView>
 			<ImageButton
 				android:src="@drawable/ic_launcher"
@@ -95,6 +94,18 @@
 				android:id="@+id/instructions"
 				android:layout_width="fill_parent">
 			</TextView>
+			<TextView
+				android:gravity="center"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_height="wrap_content"
+				android:background="@color/backgroundinstructions"
+				android:paddingBottom="2dip"
+				android:textColor="@color/textinstructions"
+				android:text="new app warning"
+				android:paddingTop="2dip"
+				android:id="@+id/newapp"
+				android:layout_width="fill_parent">
+			</TextView>
 			<ListView
 				android:layout_height="wrap_content"
 				android:layout_width="fill_parent"
@@ -104,19 +115,12 @@
 			</ListView>
 		</LinearLayout>
 	</LinearLayout>
-	<LinearLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
-	    android:orientation="vertical"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentBottom="true" 
-	    android:layout_alignParentLeft="true" 
-	    android:id="@+id/linearLayout2">
-	  	<com.google.ads.AdView android:id="@+id/adView"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			ads:adUnitId="a14ee7b3dd6a2f3"
-			ads:adSize="BANNER"
-			ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID, A80669BDFE9B85AEB95D301763EE60A2"
-			ads:loadAdOnCreate="true"/>
-	</LinearLayout>
+	<include 
+		layout="@layout/ad" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/includeAd" 
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true" 
+		android:layout_alignParentLeft="true">
+	</include>
 </RelativeLayout>
